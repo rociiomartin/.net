@@ -1,12 +1,9 @@
-
-//En el programa.cs poner
 using Teoria4;
-//trabajamos con la clase auto
 
 //Auto a
 Auto a;
 a = new Auto("Nissan", 2017);
-//a.Marca= "Nissan"; si fuera publica
+//a.Marca= "Nissan"; a.Modelo = 2017; //si fuera publica
 /* Como se imprime si no se hace un metodo de instancia 
 Console.WriteLine($"Auto {a.Marca} {a.Modelo}");
 */
