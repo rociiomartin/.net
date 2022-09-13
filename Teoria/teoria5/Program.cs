@@ -32,3 +32,7 @@ c.Lado = 2.5;
 Console.WriteLine("Lado: {0} área: {1}",
 c.Lado,
 c.Area);
+
+
+
+
