@@ -14,4 +14,17 @@ cuenta.Imprimir();
 cuenta.Extraer(150);
 cuenta.Imprimir();
 cuenta.Extraer(1500);
+
+(monitor)
+
+class Cuenta
+{
+private double _monto;
+private int _titularDNI;
+private string? _titularNobre;
+. . .
+}
+
+Utilizar en la medida de lo posible la sintaxis :this en el encabezado de los constructores para invocar a otro
+constructor ya definido.
 */
