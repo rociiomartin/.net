@@ -1,6 +1,6 @@
 namespace Teoria6;
 
-class Auto: Automotor
+class Auto: Automotor //refactorizar--> mejorar el codigo
 {
     /* NO es necesario porque ya tengo uno con las mismas caracteristicas, utilizo el codigo
    public string Marca = "";
