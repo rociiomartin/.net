@@ -7,6 +7,6 @@ Console.WriteLine(dyn.Length);// error de ejecucion(-)
 */
 
 /*
-(*)Porque 
-(-)Porque
+(*)Porque el tipo de dato object no tiene ".Length"
+(-)Porque dependiendo que valor se le asigne sera error de compilacion, si hubiera sido--> dynamic dyn = "Hola" no es error porque el string si tiene .lenght;
 */
