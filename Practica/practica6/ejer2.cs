@@ -8,4 +8,12 @@ foreach (A a in vector)
 {
 ...
 }
+
+Salida por consola B_3 --> A_3
+B_5 --> A_5
+
+Es decir, se deben imprimir sólo los objetos cuyo tipo exacto sea B
+a) Utilizando el operador is
+b) Utilizando el método GetType() y el operador typeof() (investigar sobre éste último en
+la documentación en línea de .net)
 */
