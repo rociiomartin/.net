@@ -18,3 +18,15 @@ d = c;
 e = d;
 f = e;
 */
+
+/*
+Linea 4: porque quiere multiplicar un double con un long(*)
+Linea 9: El operador + no soporta la suma entre una variable de tipo obj e int
+Linea 14: NO puede asignarle un valor de esa manera a f.
+Linea 16: No puede asignarle lo mismo que "d" porque la variable e tiene Nombre y Edad.
+Linea 17: No puede asignarle lo mismo que "e" porque la variable f tiene Edad y Nombre no Nombre y Edad,
+los tipos etan invertidos.
+
+(*)L_Long -->Las variables de tipo entero grandes o long son aquellas que almacenan un número (ya sea
+positivo o negativo) no decimal 
+*/
