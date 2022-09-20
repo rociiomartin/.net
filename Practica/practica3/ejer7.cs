@@ -5,3 +5,9 @@ var x = i * 1.0;
 var y = 1f;
 var z = i * y;
 */
+
+/*
+x //double
+y //Single--> punto flotante de precisión simple)
+z //Single --> punto flotante de precisión simple)
+*/
