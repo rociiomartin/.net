@@ -21,6 +21,23 @@ void Mostrar<T>(IEnumerable<T> secuencia)
     Console.WriteLine();
 }
 
+/*
+Otra cosa-->metodos de extension q provee LINQ
+*/
+var numeros = new List<int>() { 1, 10, 7, 3, 11 };
+Mostrar(numeros);
+var mayores6 = numeros.Where(n => n > 6); //los que sean mayores a 6
+Mostrar(mayores6);
+var reverso = mayores6.Reverse();//reverso, invertir el orden
+Mostrar(reverso);
+var ordenados = reverso.OrderBy(n => n);//ordenar con cualquier criterio (el numero)
+Mostrar(ordenados);
+var suma = ordenados.Sum();//suma
+var promedio = ordenados.Average();
+Console.WriteLine($"suma: {suma} promedio:{promedio:0.00}");
+
+
+//Otro ejemplo con una clase
 var personas = Persona.GetLista();
 //personas.ForEach(p=> Console.WriteLine(p)); //el foreach es de la lista generica porque linq no tiene
 //Console.WriteLine();
