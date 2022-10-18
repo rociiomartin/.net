@@ -4,11 +4,11 @@
 IEnumerable<int> secuencia = vector.Select(n => n*3);//generalmente se los llamada secuencia porque estan en orden 
 */
 List<string> lista = new List<string>(){"uno","dos","tres"};
-IEnumerable <string> secuencia = lista.Select(st => "(" + st.ToUpper() + ")");
+IEnumerable <string> secuencia = lista.Select(st => "(" + st.ToUpper() + ")"); //Poner todo en mayuscula
 Mostrar(secuencia); 
-IEnumerable <int> secuencia2 = secuencia.Select(st=> st.Length);
+IEnumerable <int> secuencia2 = secuencia.Select(st=> st.Length);//devuelve la cantidad 
 Mostrar(secuencia2); 
-IEnumerable <double> secuencia3 = secuencia2.Select(dou => dou / 2.0);
+IEnumerable <double> secuencia3 = secuencia2.Select(dou => dou / 2.0);//si no agrego el .0 no hace la parte entera de la división
 Mostrar(secuencia3); 
 //se puede hacer todo en uno, como esta en el pdf
 
