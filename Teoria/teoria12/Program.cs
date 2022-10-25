@@ -1,6 +1,5 @@
 using ejercicios;
-var proveedor = new ProveedorServicios();
-IServicioX servicio = proveedor.GetServicioX();
-servicio.Ejecutar();
-
-// hay que poner eso en la consola dotnet add package Microsoft.Extensions.Hosting
+var servicios = new ServiceCollection();
+servicios.AddTransient<IServicioX, ServicioX>();
+servicios.AddTransient<ILogger, LoggerConsola>();
+var proveedor =  servicios.BuildServiceProvider();
